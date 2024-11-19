@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Email Rewriter",
+    "version": "1.0",
+    "description": "Rewrite email bodies in different styles like Formal Business, Casual, and Bullet Point/Concise.",
+    "key":"AvfTwD2w3VgmLxwYb9o5FoZP1dSj61i4Y2jflXmimZD78hRvAO0uDDnCMafXQwJEcOvsyBxRBmNlq9PIYSq3KQMAAAB4eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vZ2NqZmJsZ2tnZ2JjbmtlamNpYWZtcGlpamVmamZvZGwiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElGb3JFeHRlbnNpb24iLCJleHBpcnkiOjE3NjA0ODYzOTl9",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
