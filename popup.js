@@ -32,18 +32,21 @@
         promptEngineered = `
           Rewrite the following email body in a formal business style, suitable for communication with a client.
           Instructions: Maintain a professional and positive tone, while providing concrete details about the partnership's progress.
+          Stick to the email points by user do not add any extra information.
           \n\n${emailBody}\n\n
         `;
       } else if (style === "casual") {
         promptEngineered = `
           Rewrite the following email body in a casual style, suitable for communication with a teammate.
           Instructions: Maintain clarity while using a more conversational tone.
+          Stick to the email points by user do not add any extra information.
           \n\n${emailBody}\n\n
         `;
       } else if (style === "concise") {
         promptEngineered = `
           Rewrite the following email body in a concise style using bullet points.
           Instructions: Structure the information using clear bullet points.
+          Stick to the email points by user do not add any extra information.
           \n\n${emailBody}\n\n
         `;
       } else {
